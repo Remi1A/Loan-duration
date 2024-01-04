@@ -2,8 +2,6 @@
 """
 Created on Wed Dec 28 15:54:38 2022
 
-@author: rem20
-"""
 import tkinter as tk
 import tkinter.messagebox as messagebox
 import chardet
