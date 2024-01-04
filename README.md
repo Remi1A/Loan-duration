@@ -1,9 +1,9 @@
 # Loan-duration
-Ce projet Python a été créé dans le cadre de mes études en ingénierie financière pour automatiser le calcul de la durée des emprunts à partir d'un fichier CSV. L'application utilise l'interface graphique Tkinter pour simplifier l'interaction avec l'utilisateur.
+This Python project was created as part of my studies in financial engineering to automate the calculation of loan durations from a CSV file. The application utilizes the Tkinter graphical interface to streamline user interaction.
 
-Instructions d'utilisation
-L'interface demande à l'utilisateur de placer le fichier CSV dans le même répertoire que le script Python et d'entrer son nom avec l'extension.
-Le script utilise la bibliothèque chardet pour détecter automatiquement l'encodage du fichier CSV, puis crée une classe Dataset pour stocker les données du fichier.
-La classe Calculation effectue le calcul de la durée des emprunts en fonction des informations du fichier CSV. Elle vérifie également l'éligibilité en fonction de la durée.
-Les résultats sont enregistrés dans un nouveau fichier CSV appelé 'loan_results.csv' avec les colonnes 'Loan', 'Duration in years' et 'Eligibility'.
+Usage Instructions:
+The graphical interface prompts the user to place the CSV file in the same directory as the Python script and enter its name with the extension. 
+The script uses the chardet library to automatically detect the encoding of the CSV file, then creates a Dataset class to store the file's data. 
+The Calculation class performs the loan duration calculations based on the CSV file information. It also checks eligibility based on the duration. 
+The results are saved in a new CSV file named 'loan_results.csv' with columns 'Loan', 'Duration in years', and 'Eligibility'.
 
